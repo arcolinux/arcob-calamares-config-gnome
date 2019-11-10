@@ -1,0 +1,2 @@
+# ArcoLinuxB-Gnome Calamares configuration
+
