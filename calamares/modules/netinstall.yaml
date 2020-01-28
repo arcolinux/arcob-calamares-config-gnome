@@ -72,14 +72,23 @@
   hidden: false
   selected: false
   packages:
+    - font-manager-git
+    - galculator
     - flameshot
+    - plank
+    - arcolinux-plank-themes-git
+    - screenkey-git
+    - xfburn
 - name: "Development"
   description: "Development"
   critical: false
   hidden: false
   selected: false
   packages:
+    - atom
     - code
+    - geany
+    - geany-plugins
     - kdevelop
 - name: "Fonts"
   description: "Fonts"
@@ -87,7 +96,12 @@
   hidden: false
   selected: false
   packages:
+    - adobe-source-sans-pro-fonts
     - terminus-font
+    - ttf-bitstream-vera
+    - ttf-inconsolata
+    - ttf-liberation
+    - ttf-ubuntu-font-family
 - name: "Games"
   description: "Games"
   critical: false
@@ -104,8 +118,14 @@
     - blender
     - darktable
     - digikam
+    - gimp
+    - gpick
+    - inkscape
     - krita
+    - nitrogen
+    - nomacs
     - pinta
+    - ristretto
 - name: "Fun"
   description: "Fun"
   critical: false
@@ -120,11 +140,14 @@
   selected: false
   packages:
     - brave
+    - chromium
     - deluge
     - discord
     - dropbox
+    - evolution
     - falkon
     - filezilla
+    - firefox
     - geary
     - hexchat
     - insync
@@ -135,6 +158,7 @@
     - telegram-desktop
     - thunderbird
     - transmission-gtk
+    - vivaldi
 - name: "Libre Office Fresh"
   description: "Installs libre office fresh - feature branch - conflicts with still"
   critical: false
@@ -165,17 +189,22 @@
     - clementine
     - deadbeef
     - elisa
+    - guvcview
     - handbrake
     - kdenlive
     - lollypop
     - obs-studio
     - openshot
     - mpv
+    - peek
+    - pragha
     - rhythmbox
+    - simplescreenrecorder
     - soundconverter
     - smplayer
     - spotify
     - spotifywm-git
+    - vlc
 - name: "Themes"
   description: "Themes"
   critical: false
@@ -184,8 +213,14 @@
   packages:
     - adapta-gtk-theme
     - arc-icon-theme
+    - arcolinux-arc-themes-nico-git
     - faba-icon-theme
+    - gnome-icon-theme
     - moka-icon-theme
+    - numix-circle-arc-icons-git
+    - numix-circle-icon-theme-git
+    - numix-gtk-theme-git
+    - openbox-themes-pambudi-git
     - oxy-neon
     - paper-icon-theme
     - papirus-icon-theme
@@ -196,9 +231,22 @@
   hidden: false
   selected: false
   packages:
+    - baobab
+    - catfish
+    - evince
     - glances
+    - glxinfo
+    - grsync
     - gtop
+    - gufw
+    - hddtemp
+    - lm_sensors
     - powertop
+    - simple-scan
+    - timeshift
+    - vnstat
+    - wttr
+    - youtube-dl
 - name: "Virtualbox for Linux kernel"
   description: "Installs virtualbox for linux kernel"
   critical: false
